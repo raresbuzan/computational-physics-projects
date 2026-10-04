@@ -21,4 +21,4 @@ Each script opens an interactive Matplotlib window.
 
 ## Authors
 
-Amaury Mulloni and Rares Buzan — CY Cergy Paris Université.
+Amaury Mulloni and Rares Buzan --- CY Cergy Paris Université.
