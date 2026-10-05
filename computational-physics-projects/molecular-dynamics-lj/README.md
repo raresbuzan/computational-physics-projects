@@ -11,7 +11,7 @@ N = 30 particles in a closed box with reflecting walls, reduced Lennard-Jones un
 
 ## Results
 - Low temperature (T = 0.2): particles condense into a cluster, Ep dominates, pressure ≈ 0.
-- High temperature (T = 5): gas-like state filling the box, much higher pressure.
+- High temperature (T = 5): gas-like state filling the box. The virial pressure (2.09) exceeds the ideal-gas value N·T/V = 1.5, as expected when short-range repulsion dominates at high temperature.
 
 ## Known limitations
 - Energy conservation of the integrator is not tested: the thermostat adds and removes energy, so the total-energy curve drifts (visible above). A run without thermostat (NVE) is needed for that check.
